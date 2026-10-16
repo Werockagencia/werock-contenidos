@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>We Rock — Nº 01 · Estructura (historias)</title>
+<link rel="stylesheet" href="../assets/werock.css">
+<style>
+/* Zona segura de historias: nada importante en los primeros ~250px ni en los últimos ~250px (UI de Instagram) */
+.story .logo{position:absolute;z-index:5;left:72px;top:262px;height:56px}
+.story .tagr{position:absolute;z-index:5;right:72px;top:276px;font-weight:800;font-size:23px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.story .stage{position:absolute;z-index:4;left:72px;right:72px;top:400px;bottom:420px;display:flex;flex-direction:column;justify-content:flex-start}
+.story h1{font-size:150px;line-height:.97}
+.story .eyebrow{font-size:30px;margin-bottom:40px}
+.story .note{margin-top:46px;font-size:40px;line-height:1.35;font-weight:400;color:rgba(255,255,255,.82);max-width:880px}
+.story .note b{color:#fff;font-weight:800}
+.story .hint{position:absolute;z-index:4;left:72px;right:72px;bottom:300px;display:flex;align-items:center;gap:20px;font-weight:800;font-size:28px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.story .hint i{font-style:normal;color:var(--red);font-size:44px;letter-spacing:0}
+.s-red.story .hint,.s-red.story .tagr{color:rgba(255,255,255,.9)}
+.s-red.story .hint i{color:#fff}
+.story.s-red .logo{filter:none}
+.story .btn{font-size:40px;padding:36px 54px;align-self:flex-start;margin-top:60px}
+.story .url{margin-top:34px;font-weight:800;font-size:32px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+</style></head><body>
+
+<!-- ST1 · PREGUNTA (sticker de encuesta va en la franja inferior) -->
+<section class="slide story" data-file="story-1-pregunta.png">
+  <div class="glow g-tr"></div><div class="glow g-bl"></div><div class="grid"></div>
+  <img class="logo" src="../assets/brand/we-rock.png" alt="We Rock"><div class="tagr">Nº 01 — Estructura</div>
+  <div class="stage">
+    <div class="eyebrow">Pregunta rápida</div>
+    <h1>¿Sabes cuánto te <span class="red">cuesta</span> conseguir un cliente nuevo?</h1>
+  </div>
+  <div class="hint"><i>↓</i> Responde aquí</div>
+</section>
+
+<!-- ST2 · REVELACIÓN (sticker "compartir post" va en la franja inferior) -->
+<section class="slide story s-red" data-file="story-2-fuga.png">
+  <div class="glow" style="background:radial-gradient(ellipse 80% 55% at 100% 100%,rgba(0,0,0,.32),transparent 62%)"></div><div class="grid" style="opacity:.5"></div>
+  <img class="logo" src="../assets/brand/we-rock-white.png" alt="We Rock"><div class="tagr">Nº 01 — Estructura</div>
+  <div class="stage">
+    <div class="eyebrow">Si dijiste «no»</div>
+    <h1>Ahí se <span class="red">fuga</span> el crecimiento.</h1>
+    <p class="note"><b>5 señales</b> de que a tu marketing le falta estructura.</p>
+  </div>
+  <div class="hint"><i>↓</i> Míralas en el post</div>
+</section>
+
+<!-- ST3 · CTA (sticker de enlace va debajo del botón) -->
+<section class="slide story" data-file="story-3-diagnostico.png">
+  <div class="glow g-tr"></div><div class="glow g-bl"></div><div class="grid"></div>
+  <img class="logo" src="../assets/brand/we-rock.png" alt="We Rock"><div class="tagr">Nº 01 — Estructura</div>
+  <div class="stage">
+    <div class="eyebrow">Tu siguiente paso</div>
+    <h1>Diagnóstico <span class="red">estratégico</span> gratuito.</h1>
+    <p class="note">Sin presión comercial. <b>Confidencialidad garantizada.</b></p>
+    <div class="btn">Solicitar <i>→</i></div>
+    <div class="url">werock.space</div>
+  </div>
+</section>
+
+</body></html>
