@@ -7,7 +7,8 @@ import fs from 'node:fs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const which = process.argv[2] || 'carrusel';
-const dir = path.join(root, which);
+const repo = path.resolve(root, '..');
+const dir = which.includes('/') ? path.join(repo, which) : path.join(root, which);
 const html = pathToFileURL(path.join(dir, 'slides.html')).href;
 const out = path.join(dir, 'export');
 fs.mkdirSync(out, { recursive: true });

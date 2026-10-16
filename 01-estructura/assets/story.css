@@ -1,0 +1,12 @@
+/* Historias 1080×1920 — zona segura: nada importante en los primeros ~250px ni en los últimos ~250px (UI de Instagram) */
+.story .logo{position:absolute;z-index:5;left:72px;top:262px;height:56px}
+.story .tagr{position:absolute;z-index:5;right:72px;top:276px;font-weight:800;font-size:23px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.story .stage{position:absolute;z-index:4;left:72px;right:72px;top:400px;bottom:420px;display:flex;flex-direction:column;justify-content:flex-start}
+.story h1{font-size:150px;line-height:.97}
+.story .eyebrow{font-size:30px;margin-bottom:40px}
+.story .note{margin-top:46px;font-size:42px;line-height:1.35;font-weight:400;color:rgba(255,255,255,.84);max-width:900px}
+.story .note b{color:#fff;font-weight:800}
+.story .hint{position:absolute;z-index:4;left:72px;right:72px;bottom:300px;display:flex;align-items:center;gap:20px;font-weight:800;font-size:28px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.story .hint i{font-style:normal;color:var(--red);font-size:44px;letter-spacing:0}
+.s-red.story .hint,.s-red.story .tagr{color:rgba(255,255,255,.9)}
+.s-red.story .hint i{color:#fff}

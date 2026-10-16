@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>We Rock — Nº 04 · Traductor cliente → agencia (carrusel)</title>
+<link rel="stylesheet" href="../../01-estructura/assets/werock.css">
+<style>
+@font-face{font-family:'Barlow';font-weight:400;src:url(../../01-estructura/assets/fonts/barlow-400.woff2) format('woff2')}
+.cover h1{font-size:128px}
+.cover .sub{margin-top:40px;font-size:32px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.72);display:flex;align-items:center;gap:20px}
+.cover .sub::after{content:'→';color:var(--red);font-size:46px;letter-spacing:0}
+/* frase del cliente (arriba) + traducción (banda roja abajo) */
+.q{position:absolute;z-index:4;left:64px;right:64px;top:150px;height:560px;display:flex;flex-direction:column;justify-content:center}
+.q .who{font-weight:800;font-size:26px;letter-spacing:.26em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:26px;display:flex;align-items:center;gap:16px}
+.q .who::before{content:'';width:54px;height:3px;background:rgba(255,255,255,.55)}
+.q .mark{position:absolute;right:-8px;top:-30px;font-weight:900;font-size:420px;line-height:.8;color:rgba(232,0,10,.22);pointer-events:none}
+.q p{position:relative;font-weight:900;text-transform:uppercase;letter-spacing:-.03em;line-height:.98;font-size:116px}
+.t{position:absolute;z-index:4;left:0;right:0;bottom:0;height:540px;background:var(--red);padding:54px 64px 130px;display:flex;flex-direction:column;justify-content:center}
+.t .who{font-weight:800;font-size:26px;letter-spacing:.26em;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:22px;display:flex;align-items:center;gap:16px}
+.t .who::before{content:'';width:54px;height:3px;background:#fff}
+.t p{font-weight:800;font-size:56px;line-height:1.1;letter-spacing:-.02em;color:#fff}
+.t p small{display:block;margin-top:16px;font-weight:700;font-size:34px;color:rgba(255,255,255,.82);letter-spacing:0}
+.slide.tr::before{opacity:.22}
+.slide.tr .foot{z-index:6;border-top-color:rgba(255,255,255,.5);color:rgba(255,255,255,.9)}
+.slide.tr .foot b{color:#fff}
+.cta h2{font-size:118px}
+.cta .bx{margin-top:44px;border:2px solid rgba(255,255,255,.28);padding:34px 40px;background:rgba(255,255,255,.04)}
+.cta .bx p{font-size:38px;line-height:1.34;color:rgba(255,255,255,.88)}
+.cta .bx p b{color:#fff}
+</style></head><body>
+
+<section class="slide cover" data-file="01-portada.png">
+  <div class="glow g-tr"></div><div class="glow g-bl"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="body">
+    <div class="eyebrow">Diccionario</div>
+    <h1>Traductor</h1>
+    <h1 class="red" style="margin-top:6px">cliente → agencia</h1>
+    <p class="lead" style="margin-top:44px">Lo que dicen, lo que significa. <b>(Con cariño. Y con experiencia.)</b></p>
+    <div class="sub" style="margin-top:44px">Desliza</div>
+  </div>
+  <div class="foot"><span>01 / 08</span><span>werock.space</span></div>
+</section>
+
+<section class="slide tr" data-file="02-sencillo.png">
+  <div class="glow g-tr"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="q"><div class="mark">“</div><div class="who">El cliente dice</div><p>«Algo sencillo, pero que se vea mucho.»</p></div>
+  <div class="t"><div class="who">Traducción</div><p>Minimalismo… con catorce elementos en pantalla.</p></div>
+  <div class="foot"><span>02 / 08</span><span>Desliza <b>→</b></span></div>
+</section>
+
+<section class="slide tr" data-file="03-para-ayer.png">
+  <div class="glow g-bl"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="q"><div class="mark">“</div><div class="who">El cliente dice</div><p>«Es para ayer.»</p></div>
+  <div class="t"><div class="who">Traducción</div><p>No hubo planeación, pero sí mucha fe en ti.</p></div>
+  <div class="foot"><span>03 / 08</span><span>Desliza <b>→</b></span></div>
+</section>
+
+<section class="slide tr" data-file="04-como-apple.png">
+  <div class="glow g-tr"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="q"><div class="mark">“</div><div class="who">El cliente dice</div><p>«Hazlo como Apple, pero económico.»</p></div>
+  <div class="t"><div class="who">Traducción</div><p>Quiero resultados de multinacional con presupuesto de domicilio.</p></div>
+  <div class="foot"><span>04 / 08</span><span>Desliza <b>→</b></span></div>
+</section>
+
+<section class="slide tr" data-file="05-viral.png">
+  <div class="glow g-bl"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="q"><div class="mark">“</div><div class="who">El cliente dice</div><p>«Queremos que se haga viral.»</p></div>
+  <div class="t"><div class="who">Traducción</div><p>Aún no definimos qué vendemos, pero la expectativa ya es enorme.</p></div>
+  <div class="foot"><span>05 / 08</span><span>Desliza <b>→</b></span></div>
+</section>
+
+<section class="slide tr" data-file="06-sobrino.png">
+  <div class="glow g-tr"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="q"><div class="mark">“</div><div class="who">El cliente dice</div><p>«Mi sobrino lo hace gratis.»</p></div>
+  <div class="t"><div class="who">Traducción</div><p>Nos vemos en tres meses.<small>(Con el sitio roto, pero con cariño.)</small></p></div>
+  <div class="foot"><span>06 / 08</span><span>Desliza <b>→</b></span></div>
+</section>
+
+<section class="slide tr" data-file="07-cambiecito.png">
+  <div class="glow g-bl"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="q"><div class="mark">“</div><div class="who">El cliente dice</div><p>«Solo un cambiecito.»</p></div>
+  <div class="t"><div class="who">Traducción</div><p>Vamos a reconstruir todo.</p></div>
+  <div class="foot"><span>07 / 08</span><span>Desliza <b>→</b></span></div>
+</section>
+
+<section class="slide cta" data-file="08-cierre.png">
+  <div class="glow g-tr"></div><div class="glow g-bl"></div><div class="grid"></div>
+  <div class="mast"><img src="../../01-estructura/assets/brand/we-rock.png" alt="We Rock"><span>Nº 04 — Humor de oficina</span></div>
+  <div class="body">
+    <div class="eyebrow">Tu turno</div>
+    <h2>¿Cuál es la frase que <span class="red">más has escuchado?</span></h2>
+    <div class="bx">
+      <p><b>Déjala en comentarios</b> y armamos la parte 2 con las mejores.</p>
+      <p style="margin-top:18px;font-size:32px;color:rgba(255,255,255,.65)">Y mándaselo a quien dice la #1 (con mucho cariño).</p>
+    </div>
+  </div>
+  <div class="foot"><span>08 / 08</span><span>werock.space</span></div>
+</section>
+
+</body></html>
